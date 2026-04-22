@@ -47,9 +47,9 @@ def salario_final(salario_bruto,desconto_falta):
 nome = input('Digite o seu nome ')
 cargo = input('Digite seu cargo (Gerente, Analista, Assistente, Estagiário) ').lower()
 salario = float(input('Digite seu salário '))
-horas_extras = float(input('Digite quantas horas extras você trabalhou'))
-faltas = int(input('Digite quantas faltas você teve '))
-consulta_bonus = input('Recebeu bônus ? (Sim ou Não)')
+horas_extras = float(input('Digite quantas horas extras você trabalhou ' ))
+faltas = int(input('Digite quantas faltas você teve ' ))
+consulta_bonus = input('Recebeu bônus ? (Sim ou Não) ' )
 
 valor_extra = valor_hora_extra(salario, horas_extras)
 desconto = desconto_falta(faltas,salario)
